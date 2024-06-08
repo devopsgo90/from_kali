@@ -1,0 +1,344 @@
++-----------------------+----------------------------------------------------------------------------------------------------------------------------------+
+| SETTING               | VALUE                                                                                                                            |
++-----------------------+----------------------------------------------------------------------------------------------------------------------------------+
+| content-length-ignore | [1053]                                                                                                                           |
+| delay                 | 0s                                                                                                                               |
+| full-scan             | false                                                                                                                            |
+| full-scan-requests    | 201813266                                                                                                                        |
+| headers               | [x-forwarded-for:127.0.0.1]                                                                                                      |
+| kitebuilder-apis      | [/root/tools/kiterunner/routes-large.kite]                                                                                       |
+| max-conn-per-host     | 20                                                                                                                               |
+| max-parallel-host     | 100                                                                                                                              |
+| max-redirects         | 3                                                                                                                                |
+| max-timeout           | 3s                                                                                                                               |
+| preflight-routes      | 11                                                                                                                               |
+| quarantine-threshold  | 10                                                                                                                               |
+| quick-scan-requests   | 14376353                                                                                                                         |
+| read-body             | false                                                                                                                            |
+| read-headers          | false                                                                                                                            |
+| scan-depth            | 1                                                                                                                                |
+| skip-preflight        | false                                                                                                                            |
+| status-code-blacklist | [411 414 400 401 404 501 502 426]                                                                                                |
+| targets               | 139                                                                                                                              |
+| total-routes          | 957191                                                                                                                           |
+| user-agent            | Chrome. Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 |
++-----------------------+----------------------------------------------------------------------------------------------------------------------------------+
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/movementType/67047653 [0m0cf682178850752b55ed3476a8c2b7d62ead66dc
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/issue/moduleList [0m0cf681d656d9fbdd926afd98fd128a742cef8a92
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/swagger/get2 [0m0cf681b235734bcebf0e710a75d7b63885ad7e0c
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/terms/19665909 [0m0cf6837983f805621878c1d392d026dcaf30cbee
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/mobileRank/getRankInfoGroupByGrade [0m0cf68192eea90b31b207027f5ef9f7e0ceca3dca
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/oauth2/userinfo/ext [0m0cf685793d96824e744a3cdcf70b8b0ef4265cef
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/guest/countries [0m0cf6827aad79a0ce093632ba45a42ae464050065
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/nocar/policy/downUrl [0m0cf6823cc05edde1920093e48e82670de15d9939
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/tafpoint [0m0cf683a7296722794fb93d950b1c56e0cbd94b4c
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/analysis/api/app/searchById [0m0cf683290091c23e8ddd9292925f9684f4f65cab
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/jellyfin/emby/InfuseSync/UserFolders/42 [0m0cf681b26e44269019277a88f41148498ff603c6
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/jellyfin/emby/Plugins/JavScraper/Update [0m0cf68235fcf58150a24ab35e674047f3e2a9ad78
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/jellyfin/emby/emby/Items/42/File [0m0cf684f45f2d83b7350232296a67862121464069
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/politikei/api/proposition/30847831 [0m0cf68b1837c592b7e2a6f8d813d7a4393e0c1dfa
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/v1.0/feed/okutopi [0m0cf68139d869beb5b9a582d8ddbe034fe4f62781
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/openId [0m0cf68a583f09d15733f8d6b8e589c32426ce0db5
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/v1.0/tpip/services/233026/features/195603 [0m0cf689707507a3e072066158a1fd365f08c6f073
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/v1.0/zetag/list [0m0cf682084759fac016d6cbf4630821171d388b9e
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/interval-data/98950955/clone-job [0m0cf6828d8a895ce961edc9d8534cb547dcf03f69
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/lc/trip/getHostTripList [0m0cf68620434a17740fa8c96ed9c4a213aaac664f
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/bookCategory/bookCategoryList [0m0cf681d99e2ef7b673a0e077e0711c84233646c1
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/76506921 [0m0cf6836bb10020b572c4a4b2dd13999d31ba5a6d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/services/v1/verify-user [0m0cf681b64370d8c6dc610feaade84497c628b07a
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/services/v1/gateway/routes [0m0cf68305ae4aa6e3135adb30d97a3f956ab953a3
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/offcial/news/hot/761861 [0m0cf681a48d1288782c7e0b0a6ceca6b07b44c94e
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/master/api/destinations/image/480288 [0m0cf68897f96229f989b5d0b9614f1045698b988e
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/sxyl/index/getAppBackGround [0m0cf68a4e04e3ba503946e8ed898bc73c2997ead4
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/commerce/v2/commerce/v2/events/91402577/offers [0m0cf683407b7b1fc81cb7c9762760e446dd1b6bcd
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/newcatalog-service/cache/names [0m0cf685ea1347653cf5021d590b7fe0c33d67aad3
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/getPayments [0m0cf681db70c56b680da9e90e93000a86810fac4f
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/login/mine [0m0cf6834c7950a95c3ee5b69dc4819e8e30a4e688
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/login/current [0m0cf68c0c27673ab2a0194863c8b1a389b3296954
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/login [0m0cf68829a2c83cdf5516d5988181566f0e948c15
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/login/api/login/79178350 [0m0cf68bbc0365fb34a653e60dcd8281e88f2bc796
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/accessToken/public/64784517 [0m0cf68340b5a365d5d8072a827d8986ddeaea3753
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/common-edit/upload [0m0cf68a2d669a49bccc293775cd6560383db04b80
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/imx-1-nb-alpha/devices/ee6376fb-e584-43ec-9657-b62b7d0fe899/shadow [0m0cf682a63adce9e363fed76a7e0dfb63bf7f082a
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/comment/commentTags [0m0cf684cd62f5a2bf20251570e20820e8a8e3607d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/buy/browse/v1/item/get_items_by_item_group [0m0cf6831ba149e18ba2217c3c913013b32d3ff001
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/buy/browse/v1/item/ [0m0cf6886bf28d242a0c81f34ebd9b7998211cd39a
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/frontend/services/getAllServicesBySubCategoryslug/00193771 [0m0cf68940fae018a4ff746fb9bda8b733a08d8ce1
+[36mGET     301 [[37m    163[0m,[37m    9[0m,[37m   2[0m][36m https://l.promo.global.newegg.com/error [0m-> https://l.promo.global.newegg.com/error/ 0cf682cddc3a77ab8cb68779168b3743a748a029
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/weather/site/75058 [0m0cf6821447a0fab9c9f73a3a62f3fa8dc729fe4f
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/api/v1/user/hierarchs/dropped [0m0cf6819a5792dd11ca7331885c4d3d17e8f98924
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/DownLoad/downloadWebPackinglist [0m0cf6838315e68026e19ca55bed259396ef7987d4
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/api/v1/planogram/dimension/upload/template [0m0cf6856140511ff1aba86177bd7224cb52971ac7
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/api/window/12133376/92661532/field/98262318/zoomInto [0m0cf684ebb5d4d684471e4ff921c59074f046b527
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/1.0/d76c1b9c-9e9a-419b-ad06-42cab2a30fde/search [0m0cf683ec424b8217e453e1266b24c341e83a30f3
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/v1/common/userInfo [0m0cf682476fe337cd1619fcc274d7527aa16b38ad
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/api/send-message [0m0cf683a9d1ff0563fe2045f9abf3b2e5bfb91f6d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/v1/anchor/556605/fans [0m0cf6834837ae022e7fde902b07573442e596a282
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/v1/user/291329/report/edit-history [0m0cf68a7b72d8de4c6b098df9fd5b3410049168e3
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/documents/31711163 [0m0cf68a24baf79fcc32f9f27d2c6541ce4853050e
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/pl/v0/insights [0m0cf681e82afc767a8c3c68c4d74ff22b4af17302
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/apps/woocommerce/926958/profiles [0m0cf68595dd16b31fc00cb4cc234aa6df3e037f32
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/skill/all [0m0cf682d16505739ccc7aeb232bb92f17e1c9f730
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/model/image/59021535/80970288/62004616 [0m0cf68c447599ea2833d82bc567d1c49fb71a4e33
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/metadata/kpi_assign/69895949 [0m0cf682743e01113f44498968ee0d706a53366b41
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/console/es/query/result/findOne/70223558 [0m0cf6848e5cb0d9909b4f28cb53b8220e16a4f721
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/report/proces-status-logs/776338 [0m0cf68406f0f3f49f54411442f7de96611260bac7
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/scjd [0m0cf68c0522fdd2f9353de93673dee51408e4040d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/page/klobmeter/ahlak/terms/ [0m0cf688a7ffb2c10bbf3903a514001c0c6bbe68e6
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/me [0m0cf6851e1a63f28e4336f6b78a12af2c6afad451
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/erroVendaAgrupado/list/75973197 [0m0cf68a3f700471c40c4fda4755c2795ca95eaaca
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/bot/v1/medias/fid/96748383 [0m0cf68b8c8b74f4370f30426e5c9b0873a93b99b4
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/board/manager/window/article/178494 [0m0cf683b0a887766f9a0e9a07bcfbc795eeb03326
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/media/729551/smil [0m0cf68aca7599382a845c28e1eb79b7a960c874b7
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/console/ats/stage/download/export [0m0cf68b7fa32b3ffe1c7f594deba923e1a5ec7630
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/v1/catalogs [0m0cf6837d87b06539ba263ee8e5c9843e17b5bd04
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/track [0m0cf688d86871922d243fd76f2f73e45ac24c1c5b
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/results/87620124/delete [0m0cf688eab90ec3bae6fc37131291327c06175543
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/report/custom [0m0cf682a6dbc1bd2d21933fa68cd34eb72c39f6d2
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/back/promote/delete [0m0cf684742a869662897f568f64b52a0823b3ce0f
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/timetracking/projects/48066408/positions/66268305 [0m0cf683e2478d02bbfb3f0e03e2b494dd71b0dfb0
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/rest/record/getSeting/68620982/58394890 [0m0cf68aec2274faa2763d6f190852966973c95510
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/creditassign/getUserLoanCreditExt [0m0cf6821f21e25144a4e6562fa50af0540e0d33bd
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/claim/status/updates/serviceProvider/02944922/claimId/87061763/claimStatus/95485461/date/85548284 [0m0cf68287f5dc70ab3af5c8b231183bfbda021fd3
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/job/getposted [0m0cf6845c17ee68c47b6927912e2d708152c183bf
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/delivery/carried [0m0cf68c091e04fac47c50b7a2c4f27389b1912982
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/discount/selectDisById [0m0cf681903b1cc751328118b1fd3e94b8e8d28003
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/job/exportUseCouponByDay [0m0cf6835536e7c159277c16459190bbcd172cf883
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/order-wx/wx/businesses/taskgroup/info/627844 [0m0cf6814adf20dc7ffd414777afd8ce3d8cdd816b
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/download/v1/downloadconfig [0m0cf682077272d2819f5d0b42928394924c48599c
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/teacherManage/queryPaperUserList [0m0cf68468cf7cbc232a222eba5e2a28f5bd296b6d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/seventypayment/payback [0m0cf685d005919d31dd0cf2cdc8ce31b45ddefcce
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/aadallah/StudentsManager/1.0.0/students/ [0m0cf6845b5f600bfbc8fccc14862a6086857fe6b4
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/dl/login [0m0cf685a9dc5e3517152b8d5bb90d6f2f518663ca
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/interest/adversityQuestion [0m0cf68159f69f93e3406765cd690fb7ae0bf66d96
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/books/catalog [0m0cf6861fb0832d209172f4378897ecdda6d1fff6
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/expert/getExpertArticles.json [0m0cf6854e37d95fec42329e8561c7f2369e7f4c25
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/probeDataAll/getList [0m0cf688fd293ce239865dea93f5ac01fbab4256ca
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/login/selectAppUserByUserid [0m0cf68274df60d5cf45e47cea0672e6b789531c25
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/preAdaptation/findBloodPressPage [0m0cf683406b6b87d6724a1d8e0772e91bf7752ee7
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/public/feed42 [0m0cf685c65dd1f8caa7ef6ffbafcad9a1881013b1
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/token/getTokenGroupInfo [0m0cf68870f9218ed8d42b4b32678b48ee5986cd4b
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/aaa [0m0cf68905054a8f27927d02ca23101c5854ff6718
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/projects/v1.0/getbymap [0m0cf68ac58f12f7540d283a6ae34da9c3b3b16e96
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/userId [0m0cf683f1ccedae84c0fcdc8d2380672c1396a4cd
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/biothenticate/v1.0/refresh [0m0cf682824ff77f94d9b675779de15156b73b06a6
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/api/user/getRealName [0m0cf6819f51100b6cf3b721833289c8f9f36d3b58
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/h5/newReport/successOrderCount [0m0cf684fc5168f6650e72d9a53493001e80218822
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/tag/create [0m0cf68b353e12237ecaf488683759b2938fd065f7
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/order/info/931197 [0m0cf68a1d9d3bc8b94dd23ddba920502e286412b4
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/home/aboutMe [0m0cf6817e930945415950db1125eab2a9fa6163e4
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/visitor/privateLetter/letters [0m0cf689977477daa5466c737d18c79279a2d224a6
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/v1.0/passport-count [0m0cf68305a87acf20c749dbee65828c5b26c89ba6
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/26820799/17249526 [0m0cf68a7575a8641dfcb77f2cd0b6bda5fe18dd25
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/staff/profile/556748 [0m0cf6881de6c0feabdbe5f626ec584ff13e618f06
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/rest/users [0m0cf685193cd04071930af9df1d5321be3107b465
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/chat/orderChat [0m0cf68c219d15a8f515f6e47bfd5dfad7b5ab858d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/home/releaseList [0m0cf68af14ebcea7cd4e93e5edb9980dabb99e4aa
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/jingan/mosquitoAPPU/page [0m0cf68934252e7cc2d0622157e7c32dcba29d2200
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/app/healthFile/getHealthFileInfo [0m0cf68204101813b889bbcf8f74c1d715ad51d62d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/tree/user/err/count [0m0cf68ac4d05924f256e6ed888add03890f62ec1d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/moment/message/hub [0m0cf68b148e9c2ff22ae3bdb80adddbee9293ce06
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/tparty/captcha [0m0cf6821cb7fad4cfaaca748a0b181b8eac9eb18d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/mcapi/settlement/currencyrate/conversion-rate-issued [0m0cf681d5b8c45efe0053deeab4638c25d3406714
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/pldc/time [0m0cf688b048c861c538244d8c484fda891196074b
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/accounts/userinfo [0m0cf683f2c95a1b9126147106d9a19c0d17e9e8f3
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/accounts/282604 [0m0cf6896f9323d7eb220117fc78c0c492f2f53e40
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/accounts/95104483/scope-engagement-data/62340755 [0m0cf68b7e72088e13ef6e23c7c284f17bf0167729
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/ali/rent/about [0m0cf68ae656f0092d492edaef30c94e2bc8cfcef7
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/hubstatus [0m0cf68249d71ab792a8db59a5b90164ae9b147f2c
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/crm/accounts/customer [0m0cf68284b742cf495cb747e4440c538dac23811d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/criteria/42 [0m0cf6817ba0a192c7abdd9177c48f79c39f44eebc
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/mrp/api/user/head/90721187 [0m0cf68c21cb2b7ea198d62721dca2e351cf53b146
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/apimobile/getTyphoonMsg [0m0cf6896db99600e1a6d383f2c8921c8acaedaf7f
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/elaw-dpsp/v1/funcionario/consulta [0m0cf68ada0e073da35c551b9ba5976740d338e42e
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/issuerInitiatedDigitizationData [0m0cf68ab6caa2425100b9adbc7abcebed187d37f0
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/dictDetail/typeView [0m0cf681e00b726a2356922d16a29cccf3aeef706d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/grade [0m0cf68996f103749029326e963059fb7a22617125
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/upsSbxjXjReport/preview [0m0cf688cad86668e5f0a7c342fbe65b4f6268dbe1
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/leagueTable/93606105 [0m0cf681924d43aa7b37b07b7ec206595663a46c48
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/redenvelope/gethelprecord [0m0cf6823c17171ae5c4d0d09cb365a748bda875d5
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/repository/audio/api/fileInfo/68050492/64520544 [0m0cf6857f065fa47c0e3c36927e2682c14f9f1b88
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/web/account/company/account/info [0m0cf68283aee88f6cafac61e628f009c02a023841
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/web/physician/getCheckOverPrescription [0m0cf6884d6ae2c745580b5a5295cb3f02cdaa08bc
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/web/queryAllList [0m0cf689924b929f7a8930631a430e87edb53256e1
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/web/car/map/60966361 [0m0cf68c371ea07c7ab0d6f9c51c5a92ffb55fd63c
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/web/records/list [0m0cf6851deb68424f54800f49a283f6119a63f307
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/web/buildings [0m0cf68b6869212ea7e82e32a996c27f1d983978a9
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/github-oauth/login/99421486 [0m0cf6813b3660da9df2db177861e0f19a29b0a4e6
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/summary/v1/assetSum [0m0cf68a311f937c5da74ac2162e0b13bbdde85164
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/bbb [0m0cf68b6f03d6d1596b4b6ffff71df2fa0686e76a
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/v3/client/mandate/download [0m0cf681cd72d5c5fa83ad2a32c68a6ab9b1b8fe2d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/v3/playlist/20156760/ [0m0cf6892c3d9c18ffdd1e22482f40978f2d93f20c
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/v3/products/44327194 [0m0cf68171b0a995773be3e24db0efaaef7a29068c
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/v3/products [0m0cf682df331a4c583a539a1a1e5ed64ce7ad7561
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/getLastVersion [0m0cf68b705b30398f2e67cbca20728632200f7ef3
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/faucet [0m0cf6831c5d13f2cc620c372557a20f6e3da3a248
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/axfood/axfood-product-scan-mobile/productByNameAndGtinAdmin/70986397 [0m0cf68258673bfb39eb236e8958b17ba38217f08a
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/auditevents [0m0cf68468663125471913b6b4d4200fc15203e2bd
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/micro/scene/selectAllOnline [0m0cf685566946abc9ad5dac9da57525bbd2d23c28
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/tui/syncARIToIPMS [0m0cf681f334505d4af0bcbea2aee93807b14d297d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/junzhiit-api/decorate/template/special [0m0cf682838d4c1be603bb43c6e531794ea2a4d5eb
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/starspower/officialsite/service/v1/channel [0m0cf681907f5a334fc3b10a4f7604bfab7638bb8f
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/m/user/login [0m0cf683a7bf459330faa77df0f002d1a0782429f6
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/m/person/comment/save [0m0cf6832220318570858c1750a7152914acad8bda
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/reportDetail/getQuestionAnalysis [0m0cf68acece1149970d075a16eb6e15203115b5c6
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/v0/subscriptions [0m0cf6890d13ac493c8922bdf437fb1d58eff964cf
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/dzdz/findDzxxBydztzm [0m0cf6833660848785def56bf08c2c5ffb7082006f
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/smallProgram/getStoreDetail [0m0cf688ba76b102ec00eab5715547119710565be8
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/demeter [0m0cf6842f4713f7a8875c5c2d83e681873a084c2f
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/tests/services/467409 [0m0cf6880cc2f8086fe036aba07f65516ba0b61001
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/quote/103457 [0m0cf681bd3b0937a68cfab2f036aa1af3849e3526
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/reporting/SalesAndInventoryByDeptLocations.48168261 [0m0cf6851b4626c78a5076d96c2d1322322177668c
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/dataassistant/sellData/getImgUrl/v1 [0m0cf68233ddbb61448b1edbc9b4af48631894667d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/events/08361588/earliest/173894 [0m0cf6821fab7c9e34baf09106d4fed7dcba03da4d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/unock [0m0cf683b1e7c91a3243bc4fcc60083417614bd260
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/scheduled_reports [0m0cf6833270615344556990c5321be1f89145d355
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/topic/89907870/messages [0m0cf6831d5e1b24f9e3df0a45be3d6e6cbec24503
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/endereco/cep/09176535 [0m0cf685871c928400d1d2c26203f59e5a7e98f1e2
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/health [0m0cf6816b875056e8f7f66dc9c1f716f8a4133880
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/health [0m0cf682cee57a48b431eee38f59a1d6823bacc8f4
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/health [0m0cf6844bd7237650a1bc2a218828d6d658759436
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/districts/mis/64026662 [0m0cf6829c401965dcb6233825d01bcca0f55edf1f
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/message/util/sniff/status [0m0cf6837c3b7bada1ea9e7af4372ac82c1af69438
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/proxycenter/v1/querytickers2 [0m0cf68449688f1baba200eb18e5b3743320f81c45
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/gigadevincubator/Insulin/1.0.0/tutorials/460581/steps/64613 [0m0cf68b1009329a819ce47c703488969c73a9d433
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/ext/getaddress/76982445 [0m0cf681d8e2a5e1f40f590a71483b10ac0eb9a073
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/users/checkuserexist/93553037 [0m0cf6823eb0db3a1ab8710626da20256fabf3ab8c
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/users/secondary-users [0m0cf6834f03634744e4f09fab1cb4789dcfe4fc7c
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/users/oauth/authorize [0m0cf682d781d3eb90e6c9ddc4e33118ef827faff3
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/users [0m0cf684f8bb8df05a46c1f92b3163f79e0f1b9fcb
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/users/activities/ [0m0cf68a74dcef89a6fd705d9977d1a438268c2c76
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/LaSkala/ChallengeZone/1.0.0/climber/78336874/visits [0m0cf6881676c5963f3a83d3cc4dfffd1c8e54fd03
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/drivers/cars/491271/208846 [0m0cf6836ca540ff42541faa5d494566b08e01ddb7
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/Test/stopImport2019Date [0m0cf68828ebcfa66b311e4d27f615d4e557e1b9e0
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/learningcontexts/53991877/09020702/assignments/63853989/activities/26458479/groupId [0m0cf6815f365e0a26f4ea97969f5abac459e59e30
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/Constant/getConfig/04158734 [0m0cf684f502d735fc70340f5ad802efc11ee01dda
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/sites/accountNumber/29210078 [0m0cf685760cdc70fe4b2cb016cf20f04187d7b21b
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/vTest [0m0cf688d186b3f65776618ae2b9396691f8e2baee
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/v32010228/students/54759831/proficiency [0m0cf682d2d82459a1245d87c98644587739fa8b58
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/internal/sca/registeredcustomers [0m0cf68a9328fa721bae29d2ba19737e4f44b41788
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/graph-report [0m0cf681e3589a245ea98b8f0a4b8540ff7d0fe821
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/v1.1/mgr/mgruser/role/277304 [0m0cf6831bfadac674b9f14100e48c324293a07c43
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/v1.1/mgr/mgrmenu/list/parentMenu [0m0cf6852da4942286d6dc060ad96f8a12bfb5d6bc
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/myorders/itinerary/731115 [0m0cf685ce9d6a33b49a3e8903fe14bb960aedaa44
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/properties/getListedPropertiesByLinearId/76529337 [0m0cf68b46c0477e30b318d55ac61d643f08ae19ab
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/openoapi/multivim/v1/88427968/caca1c7e-4e01-4a8a-923e-447de625ba8c/images [0m0cf682e328c5c38c72c70cb62f0ca10c06b12e7e
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/openoapi/multivim/v1/63785654/4dfda563-9f49-4d1e-b7cd-c01e00e3855b/ports [0m0cf68bcd065b87e8f5b2cc8192ad35cf22eb6e35
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/openoapi/multivim/v1/31107895/24ed8a2e-70ff-4e37-af5b-eb04c8b07dab/ports [0m0cf689dd14dfb58ada8e15842d2caa7c1eb8c7e7
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/openoapi/vimdriver/v1/tenants [0m0cf689b733b607b576e056dd6508536e4f03cce1
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/wechat/token [0m0cf68a08c3c2e454240bac3b51c5fd985ce43313
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/xiaoheyun/flowcount/todayflowcount [0m0cf68c4817166f1a945cd17a3a91acaa7678c60f
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/test/delInit [0m0cf684716d08b417fa0e5cf4a08511d83dfffe52
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/test/set [0m0cf68b1aa1a08a440b04022192bb0677a877ec08
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/test/mq/callback [0m0cf68303ea17552874db0c238895e6f05c6a7453
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/test/redPacket/refund/msg [0m0cf684c60816602c157a8c40e9ff64f97bac6756
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/test/sendMsgByOrderId [0m0cf6893e96c1e1aef439776792db187aff97a74a
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/cg/security/getPicCode [0m0cf68415a154af2acf5d9985363c1d29108e36ea
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/all-gatePass-wh-booking-id [0m0cf6890035d25c4a1d9eaf49289dd393e7c6deaa
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/exportQuestionDetails/5201627a-c07d-45ab-94e8-5b0319c26b58 [0m0cf682314f480f06e8a93d93453bd81adbf143cf
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/resources/responsibility_group/538833/user [0m0cf688953a663f203baf25d760829e3bbe77d7d5
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/vantiv/notification/details/74138520 [0m0cf68b2312b0be181321315e72d566b12ec50a07
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/minutesGraph [0m0cf68c4f35534361d851fb8a3121d3ee8f5091c0
++-----------------------+----------------------------------------------------------------------------------------------------------------------------------+
+| SETTING               | VALUE                                                                                                                            |
++-----------------------+----------------------------------------------------------------------------------------------------------------------------------+
+| content-length-ignore | [1053]                                                                                                                           |
+| delay                 | 0s                                                                                                                               |
+| full-scan             | false                                                                                                                            |
+| full-scan-requests    | 201813266                                                                                                                        |
+| headers               | [x-forwarded-for:127.0.0.1]                                                                                                      |
+| kitebuilder-apis      | [/root/tools/kiterunner/routes-large.kite]                                                                                       |
+| max-conn-per-host     | 20                                                                                                                               |
+| max-parallel-host     | 100                                                                                                                              |
+| max-redirects         | 3                                                                                                                                |
+| max-timeout           | 3s                                                                                                                               |
+| preflight-routes      | 11                                                                                                                               |
+| quarantine-threshold  | 10                                                                                                                               |
+| quick-scan-requests   | 14376353                                                                                                                         |
+| read-body             | false                                                                                                                            |
+| read-headers          | false                                                                                                                            |
+| scan-depth            | 1                                                                                                                                |
+| skip-preflight        | false                                                                                                                            |
+| status-code-blacklist | [411 414 400 401 404 501 502 426]                                                                                                |
+| targets               | 139                                                                                                                              |
+| total-routes          | 957191                                                                                                                           |
+| user-agent            | Chrome. Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 |
++-----------------------+----------------------------------------------------------------------------------------------------------------------------------+
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/messages/706618/recipients [0m0cf681ffd3278f677f0b98e9b8dccf725d32f96c
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/public/location/config [0m0cf681e341ca5e3d03cd970db5d0212a3b9d9e14
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/public/plants [0m0cf6820115c1636c57e15b581a4b9471a5307a9a
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/public/00228587/images/04677508.61610785 [0m0cf68947e15d5f47515abffecbae9344d548332b
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/public/api/appinfo-version [0m0cf68b314ab5c0add40e203f8fb5e2c2ae8e0586
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/public/search [0m0cf68301b9efb15be06297dbf36ad4818a2fd0f0
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/public/aspirant/preferred/industries [0m0cf689f39e25d8ac314f3fd8f905705baf6e8afd
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/public/oauth [0m0cf68adbe420ee96f6a14197380d17ef0d6ce835
+[32mPOST    200 [[37m  93152[0m,[37m14433[0m,[37m1810[0m][32m http://jobs.newegg.com/salesorganizations/ [0m0cf685d2a8b257fd7c5bbf95148f7b4e7a92e09d
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/tree/user/err/count [0m0cf68ac4d05924f256e6ed888add03890f62ec1d
+[33mPOST    403 [[37m    412[0m,[37m   13[0m,[37m  11[0m][33m http://ssl-images.newegg.com/open/inner/testHelloWorld [0m0cf6814a8da1127f340b4ef285376a3dca59f59a
+[33mPOST    403 [[37m    412[0m,[37m   13[0m,[37m  11[0m][33m http://ssl-images.newegg.com/open/admin/createEmployee [0m0cf68818f4109b2842084433743da37818c142fc
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/WS_SharedServices/CreateStudentCards [0m0cf683185873da8aa8c30dd1b87b7c9fcced1918
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/docid/generate [0m0cf688450ad75625e9909fc6526b105eeaf36932
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/Banner [0m0cf682947dfcbd0be7c73aa46bf991ea296c3627
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/ab-testing/experiments [0m0cf684c820c6afb0075375999249cf7ab515e68b
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/kefumessage/getOrderNo [0m0cf68a7d05256cc1b0b70a8f0a89f16de5aae680
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/ouaf/rest/apis/cm/system/testinboundWebServiceWSDL/27836715 [0m0cf68b8e947f0e532c6802574c13f6dad4002461
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/polygon/admin [0m0cf681b3ef87a31a3074f6904587fd7c07a2e9e0
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/jkUser/queryPointsLog [0m0cf68617a73c12d5b71a9a53d043da46cfc7627e
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/cust/Info/certification/corp-white [0m0cf683d1296bfe3331701f36cd30abdc9f8090e0
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/agencia/32505618 [0m0cf681ba19c0ef019c955d3b909f36c7eb868c9b
+[32mGET     200 [[37m      2[0m,[37m    1[0m,[37m   1[0m][32m http://pf.newegg.com/restaurant/getLoyalityGoalPoints [0m0cf6886011049118fc1a40e53c5315b7b03248de
+[32mPOST    200 [[37m      2[0m,[37m    1[0m,[37m   1[0m][32m http://pf.newegg.com/oms/47821726/setPassword [0m0cf682c894a3d26c2bd4a638b5c7d3550ff6ab90
+[32mGET     200 [[37m      2[0m,[37m    1[0m,[37m   1[0m][32m http://pf.newegg.com/oms/api/v1.0/Enumeration/58852908 [0m0cf68585648367e188a026517553f5bf8ea18ac1
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/canary/v1/scan [0m0cf68522540e8bbab6d289855c69ab523c2b5d7a
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/2021/277264.html [0m0cf68a5ad31ca9e2a4d7c6d56f7e56b4b91d2b48
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/BCRElevate1/ArchivosAPI/1.0.0/Archivo/191965 [0m0cf68854be6b707a5e94306d39d079a50f058df0
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/BCRElevate1/FirmasAPI/1.0.0/Firmas/834631/332260 [0m0cf688adac7fd69b85668e6b622a8f5465184132
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/expiredProfiles [0m0cf68248143ed66a0d9b898617062909921baf87
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/idservice/v1/ids/fetch [0m0cf685a1584b1c6f6a26e62158c9fa7fe6edd6ec
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/TaskFee/getPageList [0m0cf68c4e7f774339f9e1433f833ef56e0d7d5a0f
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/wechat/get/jsconfig/80052910 [0m0cf68247504cc350c21561d7e09940ca0b10c405
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/wechat/mp/h5/oauth2/access_token [0m0cf68447f5049f280f8ccf297a1a62a176dab5c7
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/wechat/token [0m0cf68a08c3c2e454240bac3b51c5fd985ce43313
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/wechat/getSharePerson [0m0cf68a145e7d441b008ee0cd0e6943c2c387964f
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/wechat/getBatchUser [0m0cf6842f6ce3c7738112fb0694b54a5ad3b66992
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/getzwlcsgxall [0m0cf6824720bb44faf30537edc98d01edb8aad22a
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/403.html [0m0cf685c33c195faf9253e06c59ecbc108829af56
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/Advertisement/All [0m0cf6822cbf753b45353e7211e8acc98de137c4f2
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/top [0m0cf68a7242f01504ce6a8e21942aacb0328eeaee
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/companies/72006584/issues/service_ftp [0m0cf6855284b2c362683c0638cb59bd431694bbab
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/companies [0m0cf684d521ecdbedb19acbbd36eb285fd69f698e
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/hotwords [0m0cf6893735bac458fa6898cdaac0c594293574de
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/discount/selectDisById [0m0cf681903b1cc751328118b1fd3e94b8e8d28003
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/health [0m0cf6816b875056e8f7f66dc9c1f716f8a4133880
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/health/server-loading [0m0cf68153e6d7eff41cf682067949ceaac77412e5
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/health/say_hi [0m0cf681c9aeee162218806b1739fba4a34ece3409
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/health/all [0m0cf68353dc9fbffa346f681b311a9cf52e3951a9
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/health [0m0cf68a7b12f4513f567b4aa61f8cbbe89bd26da7
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/health [0m0cf68b8625991aed4494ada005fbf202c25d70a9
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/health [0m0cf6844bd7237650a1bc2a218828d6d658759436
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/health/full-status [0m0cf6895690a0120e636eb10ff3e9a73ba2c59355
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/health/detail [0m0cf682ba22c9d3438842fc72d5afda547a0e4fc8
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/health [0m0cf682cee57a48b431eee38f59a1d6823bacc8f4
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/question/get/44581176 [0m0cf682342d44437dac667b618e217e1574e45d1c
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/echart/studies/24300/sites [0m0cf681b5451f63f947f206200ddb539f250cbe90
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/getter/offer/96647889/priceList [0m0cf684a13d85ce972517b973ccd2f77fd99015e5
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/revenue/statement/RsOrCostListPC [0m0cf6845f4908a6489887e0321889c932a6c1aaee
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/deploy/test [0m0cf68982b0ba3dc4dd849a809842a1c8e684d2fb
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/starspower/officialsite/service/v1/channel [0m0cf681907f5a334fc3b10a4f7604bfab7638bb8f
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/vantiv/notification/details/08386329 [0m0cf68b2312b0be181321315e72d566b12ec50a07
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/channels [0m0cf68151a94765272b3573b2477940dd31ac2dfc
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/Api/OneCode/updateProductInfoState [0m0cf688d5520c5fdbd56c44395e169663fa147581
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/Api/Test/refund [0m0cf6854fb81b469b08c29cf1230e7a335d74ac57
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/Api/Order/finishOrder [0m0cf68a719342d5d15017266b63c5bf2994b8f0fc
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/order-wx/wx/businesses/taskgroup/info/344680 [0m0cf6814adf20dc7ffd414777afd8ce3d8cdd816b
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/tests/services/853729 [0m0cf6880cc2f8086fe036aba07f65516ba0b61001
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/link/43098869/35907358 [0m0cf68b81f65db90e59b4a80d5210e2ee442a222a
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/coupons/android [0m0cf681740767118e079ea6cf12cf60dda604fe54
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/hubstatus [0m0cf68249d71ab792a8db59a5b90164ae9b147f2c
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/LaSkala/ChallengeZone/1.0.0/climber/28310022/visits [0m0cf6881676c5963f3a83d3cc4dfffd1c8e54fd03
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/watchlist/export [0m0cf682e30107a71ed49c9d199237ee2f1c916a1e
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/watchlist/ [0m0cf68469d0b773c7298f513bf9e34122c95b3e79
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/interval-data/87763241/clone-job [0m0cf6828d8a895ce961edc9d8534cb547dcf03f69
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/watchlist/count [0m0cf68c021d6f7c201b871f74be69fa8f8bfa8efd
+[33mGET     403 [[37m    915[0m,[37m   91[0m,[37m  20[0m][33m https://cloudfront.newegg.com/ipRental-document [0m0cf688197786d8ef3fb6ef733735dfa2e6eb7d3b
+[33mGET     403 [[37m    238[0m,[37m   20[0m,[37m   8[0m][33m https://live.stream.newegg.com/users/activities/ [0m0cf68a74dcef89a6fd705d9977d1a438268c2c76
